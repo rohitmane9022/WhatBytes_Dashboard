@@ -11,7 +11,8 @@ const Chart = ({percentile}) => {
     { name: '75', numberOfStudent: 60 },
     { name: '100', numberOfStudent: percentile },
     { name: '100', numberOfStudent: 60 },
-    { name: '100', numberOfStudent: 40 },
+    { name: '100', numberOfStudent: 40 }
+,  
   ];
   return (
     <div className="w-full flex justify-center mx-auto">
