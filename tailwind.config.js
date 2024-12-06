@@ -51,10 +51,7 @@ module.exports = {
   				'5': 'hsl(var(--chart-5))'
   			}
   		},
-      'blue-400': '#60a5fa', // Tailwind color value for blue-400
-        'orange-600': '#f97316', // Tailwind color value for orange-600
-        'red-400': '#f87171', // Tailwind color value for red-400
-        'green-400': '#4ade80',
+      
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
