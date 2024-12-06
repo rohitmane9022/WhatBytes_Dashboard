@@ -5,7 +5,7 @@ import SkillTest from "../components/SkillTest";
 
 export default function Home() {
   return (
-   <div className="flex flex-col min-h-screen overflow-hidden  bg-white ">
+   <div className="flex flex-col min-h-screen overflow-hidden font-Arimo bg-white ">
     <Header/>
     <main className="lg:grid lg:grid-cols-[1fr,4.5fr] grid-cols-none gap-2 md:h-full overflow-hidden">
     <SideBar/>
