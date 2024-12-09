@@ -6,7 +6,7 @@ import MineImage from ".././Image/MineImage.jpg"
 const Header = () => {
   return (
     <nav className='text-black flex justify-between px-10 py-6 border-b '>
-      <div className='flex gap-2 items-center text-3xl'>
+      <div className='flex gap-2 items-center text-xl sm:text-3xl'>  
       <div><FaMap className='size-6'/></div>
       <h1 className='font-bold'>WhatBytes</h1>
       </div>

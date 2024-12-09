@@ -3,7 +3,7 @@ import { PiListDashesLight } from "react-icons/pi";
 
 const SideBar = () => {
   return (
-    <section className="w-full lg:min-h-screen">
+    <section className="w-full lg:min-h-screen md:block hidden">
       <div className="border-r lg:min-h-screen text-gray-500 text-lg flex lg:flex-col items-start pt-10 lg:h-full">
         
    

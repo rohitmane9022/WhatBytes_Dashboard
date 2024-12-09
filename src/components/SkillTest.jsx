@@ -42,17 +42,17 @@ const SkillTest = () => {
   const toggleUpdateForm = () => setShowUpdateForm(!showUpdateForm);
 
   return (
-    <section className="skills md:ml-8">
+    <section className="skills md:ml-8 px-5 pb-5">
       <h3 className="text-lg text-gray-600 my-10">Skill Test</h3>
       <div className="lg:grid md:grid-cols-5   md:grid-rows-[105px,auto,105px,105px,105px,105px,auto,150px] gap-6 pr-3">
         
        
-        <div className="border rounded-xl col-start-1 col-end-4 row-start-1 row-end-2 text-black">
-          <div className="flex justify-evenly items-center my-4 ">
+        <div className="border mb-5 md:mb-0 rounded-xl col-start-1 col-end-4 row-start-1 row-end-2 text-black">
+          <div className="flex flex-col md:flex-row md:justify-evenly items-center my-4 ">
             <div>
               <Image src={HTML5_logosvg} alt="html logo" width={70} height={70} />
             </div>
-            <div>
+            <div className="text-center md:text-left">
               <p className="text-lg font-semibold">Hyper Text Markup Language</p>
               <p className="text-lg text-gray-700">
                 Questions: 08 | Duration: 15 mins | Submitted on 4 June 2524
@@ -93,11 +93,11 @@ const SkillTest = () => {
         )}
 
      
-        <div className="border rounded-xl px-6 py-4 text-black md:col-start-1 md:col-end-4 md:row-start-2 md:row-end-4">
+        <div className="border mb-5 md:mb-0 rounded-xl px-6 py-4 text-black md:col-start-1 md:col-end-4 md:row-start-2 md:row-end-4">
           <div>
             <p className="font-semibold text-lg my-1">Quick Statistics</p>
           </div>
-          <div className="flex gap-3 px-4 mb-5 mt-3 items-stretch justify-evenly">
+          <div className="flex md:flex-row flex-col gap-3 px-4 mb-5 mt-3 text-center md:text-left md:justify-evenly justify-center items-center">
             <div className="p-5 flex items-center rounded-full bg-gray-100">
               <Image src={Champions} alt="Champions icon" className="size-7" />
             </div>
@@ -131,7 +131,7 @@ const SkillTest = () => {
           </div>
         </div>
 
-        <div className="border text-black md:col-start-4 md:col-end-6 md:row-start-1 md:row-end-5 rounded-xl px-9 py-4">
+        <div className="border mb-5 md:mb-0 text-black md:col-start-4 md:col-end-6 md:row-start-1 md:row-end-5 rounded-xl px-9 py-4">
           <div className="my-6">
             <h2 className="font-semibold text-lg">Syllabus Wise Analysis</h2>
           </div>
@@ -142,7 +142,7 @@ const SkillTest = () => {
           </div>
         </div>
 
-        <div className="text-black flex border-gray-300 border rounded-xl px-5 md:row-start-4 md:row-end-8  md:col-start-1 md:col-end-4">
+        <div className="text-black mb-5 md:mb-0 flex border-gray-300 border rounded-xl px-5 md:row-start-4 md:row-end-8  md:col-start-1 md:col-end-4">
           <div className="flex p-5 flex-col">
             <div>
               <h2 className="py-6 font-semibold">Comparison Graph</h2>
@@ -154,9 +154,7 @@ const SkillTest = () => {
               <Chart percentile={percentile} />
             </div>
           </div>
-          <div className="mt-10">
-            <Image src={checkMark} alt="checkMark icon" className="w-20" />
-          </div>
+          
         </div>
 
       
